@@ -19,9 +19,9 @@ public partial class cms_display_DisplayLoadControl : System.Web.UI.UserControl
                 plLoadControl.Controls.Add(LoadControl("ThanhVien/ThanhVienLoadControl.ascx"));
                 break;
                 
-            case "TinTuc":
-                plLoadControl.Controls.Add(LoadControl("TinTuc/TinTucLoadControl.ascx"));
-                break;
+            //case "TinTuc":
+            //    plLoadControl.Controls.Add(LoadControl("TinTuc/TinTucLoadControl.ascx"));
+            //    break;
                 
             default:
                 plLoadControl.Controls.Add(LoadControl("TrangChu/TrangChuLoadControl.ascx"));

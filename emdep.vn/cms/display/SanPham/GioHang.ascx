@@ -110,7 +110,7 @@
                 </div>
             </div>
             
-            <div class="CacHinhThucThanhToan">
+            <%--<div class="CacHinhThucThanhToan">
                 <div class="goiY">
                     Quý khách vui lòng chọn một trong các hình thức thanh toán dưới đây để thanh toán cho đơn hàng của mình
                 </div>
@@ -136,8 +136,8 @@
                         <div class="cb"><!----></div>
                     </div>
                 </div><br/>
-            </div>
-            <div class="thongTinTheTest">
+            </div>--%>
+            <%--<div class="thongTinTheTest">
                 <div>
                     Lưu ý: đây là bản website đang demo tính năng tích hợp thanh toán nên bạn có thể dùng thông tin test phía dưới để thử thanh toán
                 </div>
@@ -161,7 +161,7 @@
                     Postcode(zip code): 1234<br/>
                     Country: VietNam
                 </div>
-            </div>
+            </div>--%>
 
             <div class="row" style="margin-top:10px;">
                 <div class="col-lg-6">

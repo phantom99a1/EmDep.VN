@@ -111,7 +111,7 @@
                         </div>   
                     </div>
                 </asp:PlaceHolder>
-                <asp:PlaceHolder ID="plDanhMucTinTuc" runat="server" Visible="False">
+                <%--<asp:PlaceHolder ID="plDanhMucTinTuc" runat="server" Visible="False">
                     <div id="danhmuc">
                         <div class="daumuc"><a>DANH MỤC TIN TỨC</a></div>
                         <div class="ditmuc">
@@ -120,8 +120,8 @@
                             </ul>
                         </div>   
                     </div>
-                </asp:PlaceHolder>
-                <div id="hotro">
+                </asp:PlaceHolder>--%>
+                <%--<div id="hotro">
                    <div id="pichotro">
                         <div class="logohotro">
                             <img src="css/images/akmasa.png" title="pichtro" />
@@ -151,8 +151,8 @@
                             </p>
                         </div>
                     </div>              
-                </div>
-                <div id="thanhtoan">
+                </div>--%>
+                <%--<div id="thanhtoan">
                     <div class="title-thanhtoan">
                         <a>THÔNG TIN GIAO DỊCH</a>
                     </div>
@@ -194,7 +194,7 @@
                             </p>
                         </div>
                     </div>                   
-                </div>
+                </div>--%>
             </div>
             <div id="trangphai">
                 <uc1:DisplayLoadControl runat="server" ID="DisplayLoadControl" />
@@ -203,13 +203,13 @@
     </div>
 
     <!--chân trang-->
-    <div id="footer">
+    <%--<div id="footer">
         <div class="contener">
             <div class=" menufoter">
-                <p>©2016 Copyright by EmDep.vn</p>
+                <p>2024</p>
             </div>
         </div>
-    </div>
+    </div>--%>
     </form>
 </body>
 </html>
