@@ -20,9 +20,9 @@
                 <div id="logochu">
                     <asp:Literal ID="ltrLogo" runat="server"></asp:Literal>
                 </div>
-                <div id="logoanh">
+                <%--<div id="logoanh">
                     <asp:Literal ID="ltrBanner" runat="server"></asp:Literal>
-                </div>
+                </div>--%>
             </div>
         </div>
     </div>
@@ -111,7 +111,7 @@
                         </div>   
                     </div>
                 </asp:PlaceHolder>
-                <%--<asp:PlaceHolder ID="plDanhMucTinTuc" runat="server" Visible="False">
+                <asp:PlaceHolder ID="plDanhMucTinTuc" runat="server" Visible="False">
                     <div id="danhmuc">
                         <div class="daumuc"><a>DANH MỤC TIN TỨC</a></div>
                         <div class="ditmuc">
@@ -120,7 +120,7 @@
                             </ul>
                         </div>   
                     </div>
-                </asp:PlaceHolder>--%>
+                </asp:PlaceHolder>
                 <%--<div id="hotro">
                    <div id="pichotro">
                         <div class="logohotro">

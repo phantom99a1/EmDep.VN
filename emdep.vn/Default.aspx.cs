@@ -20,16 +20,16 @@ public partial class _Default : System.Web.UI.Page
         if (Request.QueryString["modul"] != null)
             modul = Request.QueryString["modul"];
 
-        if (modul == "SanPham")
+        if (modul == "TinTuc")
         {
-            //plDanhMucTinTuc.Visible = true;
+            plDanhMucTinTuc.Visible = true;
+            plDanhMucSanPham.Visible = false;
+        }
+        else
+        {
+            plDanhMucTinTuc.Visible = false;
             plDanhMucSanPham.Visible = true;
         }
-        //else
-        //{
-        //    //plDanhMucTinTuc.Visible = false;
-        //    plDanhMucSanPham.Visible = true;
-        //}
         #endregion
 
         if (!IsPostBack)
@@ -53,11 +53,11 @@ public partial class _Default : System.Web.UI.Page
             #endregion
 
             ltrLogo.Text = LayLogo();
-            ltrBanner.Text = LayBanner();
+            //ltrBanner.Text = LayBanner();
 
             ltrMenu.Text = LayMenu();
             ltrDanhMucSanPham.Text = LayDanhMucSanPham();
-            //ltrDanhMucTinTuc.Text = LayDanhMucTinTuc();
+            ltrDanhMucTinTuc.Text = LayDanhMucTinTuc();
         }
     }
 
